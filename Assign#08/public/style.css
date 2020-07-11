@@ -1,0 +1,33 @@
+body{
+    background-color: aqua;
+    text-align: center;
+}
+h1{
+    background-color: #ffffff;
+    color: #0000e4;
+    display: inline-block;
+    width: 100px;
+    
+}
+
+button{
+    color: rgb(252, 16, 55);
+    border-radius: 10px;
+    width: 100px;
+    background-color: yellow;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0000e4;
+}
+
+@media only screen and (max-width:600){
+      div{
+          width: 400px;
+      }
+}
+@media only screen and (max-width:400){
+    div{
+        width: 200px;
+    }
+}
